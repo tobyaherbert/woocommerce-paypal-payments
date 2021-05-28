@@ -5,7 +5,8 @@ node_modules
 composer.lock
 yarn-error.log
 modules/ppcp-button/assets/*
+modules/ppcp-onboarding/assets/task-list-fill.js
+modules/ppcp-onboarding/assets/task-list-fill.asset.php
 modules/ppcp-wc-gateway/assets/*
-modules/ppcp-wc-onboarding/assets/*
 .idea/
 *.zip
