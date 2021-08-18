@@ -64,8 +64,8 @@ class OrderTest extends TestCase
             'purchase_units' => [
                 [1],
             ],
-            'create_time' => $createTime->format(\DateTimeInterface::ISO8601),
-            'update_time' => $updateTime->format(\DateTimeInterface::ISO8601),
+            'create_time' => $createTime->format('Y-m-d\TH:i:sO'),
+            'update_time' => $updateTime->format('Y-m-d\TH:i:sO'),
             'payer' => ['payer'],
             'application_context' => ['applicationContext'],
             'payment_source' => ['paymentSource']
